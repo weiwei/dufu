@@ -3,6 +3,9 @@ name: publish
 on:
   schedule:
     - cron: '51 4 * * *'
+  push:
+    branches:
+      - main
 
 jobs:
   publish:
