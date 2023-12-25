@@ -2,7 +2,7 @@ name: publish
 
 on:
   schedule:
-    - cron: '51 4 * * *'
+    - cron: '27 */8 * * *'
   push:
     branches:
       - main
