@@ -62,4 +62,4 @@ for index, line in enumerate(the_poem):
 print(post)
 client = Client()
 client.login('dufu.bsky.social', os.environ['BSKY_PASSWORD'])
-client.send_post(text=post)
+client.send_post(text=post.strip())
