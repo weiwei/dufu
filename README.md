@@ -6,4 +6,4 @@ Data converted and sanitized from [buluzhai/dataset](https://github.com/buluzhai
 
 Using the SDK [MarshalX/atproto](https://github.com/MarshalX/atproto)
 
-For now it only posts shorter poems. Longer ones will exceed the 300 char limit will be supported when the SDK supports threads.
+Long poems will be posted as threads.
